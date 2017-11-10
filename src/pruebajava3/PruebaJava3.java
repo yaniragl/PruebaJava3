@@ -5,9 +5,11 @@
  */
 package pruebajava3;
 
-/**
- *
+/**Nombre yanira Galeas Rojas
+ *Fecha 10 11 2017
+ * Clase Prueba Java3
  * @author ceduc
+ * Responsabilidad Aplicacion de Escritorio Java
  */
 public class PruebaJava3 {
 
