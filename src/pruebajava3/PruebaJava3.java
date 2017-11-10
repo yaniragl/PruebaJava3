@@ -4,7 +4,8 @@
  * and open the template in the editor.
  */
 package pruebajava3;
-
+import PruebaJava3.clasebd;
+import javax.swing.JFrame;
 /**Nombre yanira Galeas Rojas
  * Fecha 10 11 2017
  * Clase Prueba Java3
@@ -16,8 +17,14 @@ public class PruebaJava3 {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args)
+    {
+       PruebaJava3 w = new clasebd();
+      w.setVisible(true);
+     
+      w.setBounds(0 ,0, 400, 400);
+      w.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // TODO code application logic here
+      
     }
     
 }
