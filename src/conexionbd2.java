@@ -6,10 +6,10 @@
 package conexionbd2;
 import javax.swing.*;
 import java.awt.*;
-//Paso 14- Importar la clase conexion
 import bd.ConexionBD;
 import java.sql.Connection;
 import java.awt.event.*;
+
 /**Nombre yanira Galeas Rojas
  *Fecha 10 11 2017
  * Clase Prueba Java3
@@ -32,11 +32,10 @@ public class conexionbd2
     text = new JTextField ();
     boton = new JButton();
     boton2 = new JButton();
-    
+      
     public conexionbd2()
-     ConexionBD con;
+   
    {       
-     this.add(panel);
      
     panel.add(text);
     panel.add(label);
@@ -45,7 +44,7 @@ public class conexionbd2
     panel.add(boton2);
     
     
-    label.setText()
+     label.setText()
      label.setText("Tercera Evaluacion Sumativa");
      label.setText("Base de Datos");
     boton.setText("Conectar");
@@ -54,6 +53,7 @@ public class conexionbd2
      //Paso 16 - agregamos Escuchadores al boton
      boton.addActionListener(new ActionListener()
      {
+        private Object con;
          public void actionPerformed(ActionEvent evt)
          {
           con = new ConexionBD();
